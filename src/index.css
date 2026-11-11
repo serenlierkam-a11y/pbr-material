@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-viewport: #111317;
+  --color-panel: #181B20;
+  --color-panel-elevated: #1F242D;
+  --color-panel-border: #2A303C;
+  --color-panel-border-subtle: #222731;
+  
+  --color-corona: #F59E0B;
+  --color-vray: #06B6D4;
+}
+
+/* Custom scrollbars for 3ds Max studio aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111317;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A303C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B4455;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "3ds Max PBR Material Script Studio",
+  "description": "Professional 3ds Max PBR material generator for Corona and V-Ray. Automatically slots textures by filename and visual analysis into Slate SME or Compact Material Editor, with intelligent Corona Color Correct channel derivation for missing maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
